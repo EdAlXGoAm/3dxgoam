@@ -1,0 +1,45 @@
+.model-container {
+    position: relative;
+    background-image: url('https://i.imgur.com/6wyOZLX.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animatedText {
+    font-style: italic;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 128, 0, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* animation: blink-caret 0.75s step-end infinite; */
+}
+
+.top-banner {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-banner {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
