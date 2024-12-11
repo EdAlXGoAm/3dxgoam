@@ -38,7 +38,7 @@ const Model = () => {
             <h2 className="animatedText top-banner">
                 {displayedText}
             </h2>
-            <Carousel3D />
+            {/* <Carousel3D /> */}
             <h2 className="animatedText bottom-banner">
                 {displayedText}
             </h2>
